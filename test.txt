@@ -11,46 +11,32 @@
       ✓ charges 30 dollars for a distance over 2000 feet
       ✓ does not allow rides over 2500 feet
     ternaryCheckCity()
-      1) returns "Ok, sounds good." when the city is NYC
-      2) should return "No go." if the destination city is not NYC
+      ✓ returns "Ok, sounds good." when the city is NYC
+      ✓ should return "No go." if the destination city is not NYC
     switchOnCharmFromTip()
-      3) should return "Thank you so much." if the tip is generous
-      4) should return "Thank you." if the tip is not as generous
-      5) should return "Bye." if anything else
+      1) should return "Thank you so much." if the tip is generous
+      2) should return "Thank you." if the tip is not as generous
+      3) should return "Bye." if anything else
 
 
-  4 passing (270ms)
-  5 failing
+  6 passing (295ms)
+  3 failing
 
   1) index.js
-       ternaryCheckCity()
-         returns "Ok, sounds good." when the city is NYC:
-     AssertionError: expected undefined to equal 'Ok, sounds good.'
-      at Context.<anonymous> (test/indexTest.js:24:42)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  2) index.js
-       ternaryCheckCity()
-         should return "No go." if the destination city is not NYC:
-     AssertionError: expected undefined to equal 'No go.'
-      at Context.<anonymous> (test/indexTest.js:28:49)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  3) index.js
        switchOnCharmFromTip()
          should return "Thank you so much." if the tip is generous:
      AssertionError: expected undefined to equal 'Thank you so much.'
       at Context.<anonymous> (test/indexTest.js:34:51)
       at process.processImmediate (node:internal/timers:476:21)
 
-  4) index.js
+  2) index.js
        switchOnCharmFromTip()
          should return "Thank you." if the tip is not as generous:
      AssertionError: expected undefined to equal 'Thank you.'
       at Context.<anonymous> (test/indexTest.js:38:58)
       at process.processImmediate (node:internal/timers:476:21)
 
-  5) index.js
+  3) index.js
        switchOnCharmFromTip()
          should return "Bye." if anything else:
      AssertionError: expected undefined to equal 'Bye.'

@@ -6,79 +6,51 @@
 
   index.js
     scuberGreetingForFeet()
-      1) gives customers a free sample if the ride is less than or equal to 400 feet
-      2) charges 20 dollars for a distance between 400 and 2000 feet
-      3) charges 30 dollars for a distance over 2000 feet
-      4) does not allow rides over 2500 feet
+      ✓ gives customers a free sample if the ride is less than or equal to 400 feet
+      ✓ charges 20 dollars for a distance between 400 and 2000 feet
+      ✓ charges 30 dollars for a distance over 2000 feet
+      ✓ does not allow rides over 2500 feet
     ternaryCheckCity()
-      5) returns "Ok, sounds good." when the city is NYC
-      6) should return "No go." if the destination city is not NYC
+      1) returns "Ok, sounds good." when the city is NYC
+      2) should return "No go." if the destination city is not NYC
     switchOnCharmFromTip()
-      7) should return "Thank you so much." if the tip is generous
-      8) should return "Thank you." if the tip is not as generous
-      9) should return "Bye." if anything else
+      3) should return "Thank you so much." if the tip is generous
+      4) should return "Thank you." if the tip is not as generous
+      5) should return "Bye." if anything else
 
 
-  0 passing (271ms)
-  9 failing
+  4 passing (270ms)
+  5 failing
 
   1) index.js
-       scuberGreetingForFeet()
-         gives customers a free sample if the ride is less than or equal to 400 feet:
-     AssertionError: expected undefined to equal 'This one is on me!'
-      at Context.<anonymous> (test/indexTest.js:6:45)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  2) index.js
-       scuberGreetingForFeet()
-         charges 20 dollars for a distance between 400 and 2000 feet:
-     AssertionError: expected undefined to equal 'That will be twenty bucks.'
-      at Context.<anonymous> (test/indexTest.js:10:46)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  3) index.js
-       scuberGreetingForFeet()
-         charges 30 dollars for a distance over 2000 feet:
-     AssertionError: expected undefined to equal 'I will gladly take your thirty bucks.'
-      at Context.<anonymous> (test/indexTest.js:14:46)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  4) index.js
-       scuberGreetingForFeet()
-         does not allow rides over 2500 feet:
-     AssertionError: expected undefined to equal 'No can do.'
-      at Context.<anonymous> (test/indexTest.js:18:46)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  5) index.js
        ternaryCheckCity()
          returns "Ok, sounds good." when the city is NYC:
      AssertionError: expected undefined to equal 'Ok, sounds good.'
       at Context.<anonymous> (test/indexTest.js:24:42)
       at process.processImmediate (node:internal/timers:476:21)
 
-  6) index.js
+  2) index.js
        ternaryCheckCity()
          should return "No go." if the destination city is not NYC:
      AssertionError: expected undefined to equal 'No go.'
       at Context.<anonymous> (test/indexTest.js:28:49)
       at process.processImmediate (node:internal/timers:476:21)
 
-  7) index.js
+  3) index.js
        switchOnCharmFromTip()
          should return "Thank you so much." if the tip is generous:
      AssertionError: expected undefined to equal 'Thank you so much.'
       at Context.<anonymous> (test/indexTest.js:34:51)
       at process.processImmediate (node:internal/timers:476:21)
 
-  8) index.js
+  4) index.js
        switchOnCharmFromTip()
          should return "Thank you." if the tip is not as generous:
      AssertionError: expected undefined to equal 'Thank you.'
       at Context.<anonymous> (test/indexTest.js:38:58)
       at process.processImmediate (node:internal/timers:476:21)
 
-  9) index.js
+  5) index.js
        switchOnCharmFromTip()
          should return "Bye." if anything else:
      AssertionError: expected undefined to equal 'Bye.'
